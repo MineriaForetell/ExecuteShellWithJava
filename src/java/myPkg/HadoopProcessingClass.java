@@ -21,7 +21,7 @@ public class HadoopProcessingClass {
 
         Process pStart;
         try {
-            String[] envp = {"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/icreate/bin:/usr/local/java/jdk1.7.0_91/bin:/home/icreate/bin:/usr/local/java/jre1.8.0_66/bin:/usr/lib/jvm/java-7-openjdk-amd64/bin:/usr/local/hadoop/bin:/usr/local/hadoop/sbin:/usr/local/hive/bin:/usr/lib/sqoop/bin"};
+            String[] envp = {"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/raxton/bin:/usr/local/java/jdk1.7.0_91/bin:/home/raxton/bin:/usr/local/java/jre1.8.0_66/bin:/usr/lib/jvm/java-7-openjdk-amd64/bin:/usr/local/hadoop/bin:/usr/local/hadoop/sbin:/usr/local/hive/bin:/usr/lib/sqoop/bin"};
 
             Runtime rtime = Runtime.getRuntime();
             pStart = rtime.exec(startProcess, envp);

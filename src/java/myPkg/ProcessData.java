@@ -36,12 +36,12 @@ public class ProcessData extends HttpServlet {
             HadoopProcessingClass obj = new HadoopProcessingClass();
             if (processReq.equals("starthadoop")) {
                 //Path must have correct value
-                String startProcess = "nohup sh -x /home/icreate/data/scripts/start-hadoop.sh  > temp.log  2>&1 &";
+                String startProcess = "nohup sh -x /home/raxton/data/scripts/start-hadoop.sh  > temp.log  2>&1 &";
                 obj.startprocess(startProcess);
              
             } else if (processReq.equals("ProcesScript")) {
                 //Path must have cor    rect value
-                String startProcess = "nohup sh -x /home/icreate/data/scripts/.sh  > temp.log  2>&1 &";
+                String startProcess = "nohup sh -x /home/raxton/data/scripts/.sh  > temp.log  2>&1 &";
             //    String start = obj.startprocess(startProcess);
 
             }

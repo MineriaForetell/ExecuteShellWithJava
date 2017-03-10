@@ -38,7 +38,7 @@ public class FileGeneratorMain {
                   String tempi = Integer.toString(i);
                   String tempj = Integer.toString(j);
                   //file = new Formatter("MINE_X_POINT_DETAILS_P_"+i+"_"+j+".csv");
-                  file = new File("/home/icreate/data/drillfiles/MINE_X_POINT_DETAILS_P_"+i+"_"+j+".csv");
+                  file = new File("/home/raxton/data/drillfiles/MINE_X_POINT_DETAILS_P_"+i+"_"+j+".csv");
                   
                   if (!file.exists()) {
 				file.createNewFile();
